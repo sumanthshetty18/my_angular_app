@@ -1,0 +1,53 @@
+<!--TWO WAY BINDING-->
+<!--[(ngModel)]-->
+<!--FormsModule in the app.module.ts-->
+<!-- <input type="text" [(ngModel)]="name"><span>Welcome {{name}}</span> -->
+
+<!-- Two way binding  -->
+<div class="user">
+  <p class="readname">Enter Your Name :<input [(ngModel)]='username' type='text'></p><br>
+  <p class="displayname">Hello {{username}}</p>
+</div>
+
+
+
+<!--IMAGE CAROUSEL-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item carouselIMG active" data-bs-interval="2000">
+      <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1055678/retina_800x320_cover-top-18-most-common-angularjs-developer-mistakes-41f9ad303a51db70e4a5204e101e7414.png" class="d-block w-100" alt="CSS">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item carouselIMG" data-bs-interval="2000">
+      <img src="https://developerpitstop.com/wp-content/uploads/2021/08/html-css-js.jpeg" class="d-block w-100" alt="JQ">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item carouselIMG" data-bs-interval="2000">
+      <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular-760x400.png" class="d-block w-100" alt="JS">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+     
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+
+ <app-cards></app-cards>
+ 

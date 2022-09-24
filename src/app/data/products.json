@@ -1,0 +1,86 @@
+[
+    {
+        "pid":1,
+        "pname":"Kids Toys",
+        "pdescription":"Toys for kids aged 0-5",
+        "price":1000,
+        "img":"https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a2lkcyUyMHRveXN8ZW58MHx8MHx8&w=1000&q=80"
+    },
+    {
+        "pid":2,
+        "pname":"JBL Headphone",
+        "pdescription":"High bass headphone from JBL",
+        "price":700,
+        "img":"https://in.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwae2159f2/JBL_TUNE700BT_ProductImage_Hero_Blue02.png?sw=537&sfrm=png"
+    },
+    {
+        "pid":3,
+        "pname":"Fastrack Watch",
+        "pdescription":"Boys Watch",
+        "price":1500,
+        "img":"https://m.media-amazon.com/images/I/71CEEzbDS-L._UY550_.jpg"
+    },
+    {
+        "pid":4,
+        "pname":"Sony TV",
+        "pdescription":"Full HD Android Tv",
+        "price":10000,
+        "img":"https://m.media-amazon.com/images/I/81zeKI1IG9L._SL1500_.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"Keyboard",
+        "pdescription":"Keyboard from Logitech",
+        "price":500,
+        "img":"https://m.media-amazon.com/images/I/71Va9DgRgwL._SL1500_.jpg"
+    },
+    {
+        "pid":6,
+        "pname":"Mouse",
+        "pdescription":"Mouse from Logitech",
+        "price":200,
+        "img":"https://resource.logitech.com/content/dam/logitech/en/products/mice/m190-wireless-mouse/m190-wireless-mouse-blue-gallery-01.png"
+    },
+    {
+        "pid":7,
+        "pname":"Kids Toys",
+        "pdescription":"Toys for kids aged 0-5",
+        "price":1000,
+        "img":"https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a2lkcyUyMHRveXN8ZW58MHx8MHx8&w=1000&q=80"
+    },
+    {
+        "pid":8,
+        "pname":"JBL Headphone",
+        "pdescription":"High bass headphone from JBL",
+        "price":700,
+        "img":"https://in.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwae2159f2/JBL_TUNE700BT_ProductImage_Hero_Blue02.png?sw=537&sfrm=png"
+    },
+    {
+        "pid":9,
+        "pname":"Fastrack Watch",
+        "pdescription":"Boys Watch",
+        "price":1500,
+        "img":"https://m.media-amazon.com/images/I/71CEEzbDS-L._UY550_.jpg"
+    },
+    {
+        "pid":10,
+        "pname":"Sony TV",
+        "pdescription":"Full HD Android Tv",
+        "price":10000,
+        "img":"https://m.media-amazon.com/images/I/81zeKI1IG9L._SL1500_.jpg"
+    },
+    {
+        "pid":11,
+        "pname":"Keyboard",
+        "pdescription":"Keyboard from Logitech",
+        "price":500,
+        "img":"https://m.media-amazon.com/images/I/71Va9DgRgwL._SL1500_.jpg"
+    },
+    {
+        "pid":12,
+        "pname":"Mouse",
+        "pdescription":"Mouse from Logitech",
+        "price":200,
+        "img":"https://resource.logitech.com/content/dam/logitech/en/products/mice/m190-wireless-mouse/m190-wireless-mouse-blue-gallery-01.png"
+    }
+]

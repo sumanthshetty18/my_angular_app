@@ -1,0 +1,87 @@
+<!-- 14-09-2022 -->
+
+<!-- ngIf, ngFor -->
+<ul *ngIf="isVisible">
+    <li *ngFor="let product of Products" [ngClass]="prod">
+      {{product.productname}}
+    </li>
+  </ul>
+  
+  <!-- Event to hide prod details -->
+  <button (click)="hide_details()">Show / Hide Product Details</button>
+  
+  <!-- ngSwitch -->
+  <!-- Property Binding -->
+  <ul [ngSwitch]="product"> 
+    <li *ngSwitchCase="'Toys'">Toys</li>
+    <li *ngSwitchCase="'Footwear'">Footwear</li>
+    <li *ngSwitchCase="'Dress'">Dress</li>
+    <li *ngSwitchCase="'Grocery'">Grocery</li>
+    <li *ngSwitchCase="'Mobile'">Mobile</li>
+    <li *ngSwitchDefault>Not Found</li>
+  </ul>
+  
+  <!-- Style Binding -->
+  <p [style.color]="'red'" [style.font-size.px]="'24'">Red Color</p>
+  <p [style.background-color]="'aqua'">Hello</p>
+  <!-- Style Binding using class-->
+  <p class="styleBinding">Class Binding</p>
+  <!--  Style Binding using function-->
+  <button [style.color]="getColor()">Function Binding</button>
+  <br><br>
+  
+  <!-- Style Binding with ternary operator-->
+  <button [style.color]="errorColor=='red' ?'red':'blue'">Style Binding with Ternary Operator</button> 
+  <hr>
+  <br><br>
+  
+  <!-- ngFor and ngSwitch -->
+  <!-- color assigned with class -->
+  <ul *ngFor="let pdetails of ProdDetails" [ngSwitch]="pdetails.color">
+    <li *ngSwitchCase="'green'" class="green">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+    <li *ngSwitchCase="'red'" class="red">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+    <li *ngSwitchCase="'yellow'" class="yellow">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+  </ul>
+  <hr>
+  
+  <!-- color assigned with bootstrap -->
+  <ul *ngFor="let pdetails of ProdDetails" [ngSwitch]="pdetails.color">
+    <li *ngSwitchCase="'green'" class="text-success">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+    <li *ngSwitchCase="'red'" class="text-danger">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+    <li *ngSwitchCase="'yellow'" class="text-warning">
+      {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+    </li>
+  </ul>
+
+  Today's Date : {{date_today}}
+<br>
+Today's Date : {{date_today | date }}
+<br>
+Today's Date : {{date_today | date | uppercase}}
+<br>
+Today's Date : {{date_today | date:'short' | uppercase}}
+<br>
+Today's Date : {{date_today | date:'long' | uppercase}}
+<hr>
+<!--Other Pipes-->
+<br>
+Price: {{price}}
+<br>
+Price: {{price | currency:'INR'}}
+<br>
+Price: {{price | currency:'USD'}}
+<hr>
+<!--CUSTOM PIPES - USER-DEFINED PIPES-->
+<!--ng g pipe square-->
+<!--square-->
+Calculate Square of 4: {{ 4 | square}}

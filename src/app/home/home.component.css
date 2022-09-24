@@ -1,0 +1,21 @@
+.carouselIMG img{
+  height: 550px;
+}
+.user{
+  float: center;
+}
+.readname{
+  float: left;
+  margin-left: 10px;
+  width: 40%;
+}
+.readname input {
+  margin-left: 10px;
+}
+.displayname{
+  float: right;
+  margin-top: -20px;
+  margin-right: 30px;
+  /* width: 40%; */
+}
+ 
