@@ -12,6 +12,7 @@ import Swal from 'sweetalert2';
 export class DealsComponent implements OnInit {
 
   constructor(private cartsvc: CartService) { }
+  
   //Add to cart
   cart: Cartitem = {
     pid: 0,

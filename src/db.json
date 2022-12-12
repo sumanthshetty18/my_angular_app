@@ -127,6 +127,27 @@
       "password": "demo123",
       "mobile": "9989789268",
       "id": 6
+    },
+    {
+      "username": " sam",
+      "useremail": "sam@gmail.com",
+      "password": "sam123",
+      "mobile": 9738992832,
+      "id": 7
+    },
+    {
+      "username": "ram",
+      "useremail": "ram@gmail.com",
+      "password": "ram123",
+      "mobile": 8738992832,
+      "id": 8
+    },
+    {
+      "username": "shyam",
+      "useremail": "shyam@gmail.com",
+      "password": "ram123",
+      "mobile": 8738992832,
+      "id": 9
     }
   ],
   "cart": [
@@ -139,12 +160,20 @@
       "id": 4
     },
     {
-      "pname": "T-shirt",
-      "pdescription": "Printed Men Round Neck White T-Shirt",
-      "price": "299",
-      "img": "https://rukminim1.flixcart.com/image/832/832/kuczmvk0/shopsy-t-shirt/7/j/f/l-mens-xoxo-white-smartees-original-imag7hb3xgfe86nh.jpeg?q=70",
+      "pname": "Kids Frock",
+      "pdescription": "Kids dress for girls between 4 - 6 years old",
+      "price": 750,
+      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
       "quantity": 1,
-      "id": 8
+      "id": 9
+    },
+    {
+      "pname": "Croma",
+      "pdescription": "Croma - Double Door Convertible",
+      "price": 25999,
+      "img": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1661170201/Croma%20Assets/Large%20Appliances/Refrigerator/Images/252133_uidwiu.png/mxw_2048,f_auto",
+      "quantity": 1,
+      "id": 11
     }
   ]
 }
